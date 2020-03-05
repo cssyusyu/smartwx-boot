@@ -76,10 +76,10 @@ JAVA开发框架：SpringBoot+Mybatis
 1. 执行数据库脚本。数据库脚本在`/doc`目录下。
 1. 在eclipse中导入maven项目。点击eclipse菜单`File` - `Import`，选择`Maven` - `Existing Maven Projects`
 1. 设置项目编码为utf-8，选择jdk1.7版本或以上，不要选择jre。
-1. 修改数据库连接。打开`/src/main/resources/property/jdbc.properties`文件，根据实际情况修改`jdbc.url`、`jdbc.username`、`jdbc.password`的值
-1. 上传图片设置。upload.properties 如属性文件所描述，如图片想放到项目中，res.upload.url注释即可
+1. 修改数据库连接。打开`/src/main/resources/application.yml`文件，根据实际情况修改`url`、`username`、`password`的值
+1. 上传图片设置。smartwx.properties，如图片想放到项目中，res.upload.url注释即可
 1. 缓存设置。为兼容jdk1.7，此版本中暂时废弃j2cache，默认仅使用ehcache缓存，如想使用，修改J2CacheUtil,用CacheJ2Utils替换CacheUtils,修改依赖文件
-1. 七牛云配置。app.properties 项目中暂时未用到，可废弃
+1. 七牛云配置。smartwx.properties 项目中暂时未用到，可注释
 1. 项目中为简化代码，用到了 ***lombok*** 插件，大家可自行安装。
 1. 由于项目采用前后台分离，也为了将来配置读写分离，项目需 ***root*** 根目录运行，如若不然可能会js，css加载不到的情况（自己可修改）
 1. 编译项目。在eclipse中，右键点击项目名，选择`Run as` - `Maven build...`，`Goals`填入`clean package`，然后点击`Run`，第一次运行需要下载jar包，请耐心等待
