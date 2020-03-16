@@ -53,4 +53,156 @@ public class MsgNews extends MsgBase {
 	private String end;
 	//一对多
 	private List<MsgArticle> articles;
+
+	public Integer getMultType() {
+		return multType;
+	}
+
+	public void setMultType(Integer multType) {
+		this.multType = multType;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String getBrief() {
+		return brief;
+	}
+
+	public void setBrief(String brief) {
+		this.brief = brief;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getPicpath() {
+		return picpath;
+	}
+
+	public void setPicpath(String picpath) {
+		this.picpath = picpath;
+	}
+
+	public String getPicdir() {
+		return picdir;
+	}
+
+	public void setPicdir(String picdir) {
+		this.picdir = picdir;
+	}
+
+	public Integer getShowpic() {
+		return showpic;
+	}
+
+	public void setShowpic(Integer showpic) {
+		this.showpic = showpic;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getFromurl() {
+		return fromurl;
+	}
+
+	public void setFromurl(String fromurl) {
+		this.fromurl = fromurl;
+	}
+
+	public Long getBaseId() {
+		return baseId;
+	}
+
+	public void setBaseId(Long baseId) {
+		this.baseId = baseId;
+	}
+
+	public String getMediaId() {
+		return mediaId;
+	}
+
+	public void setMediaId(String mediaId) {
+		this.mediaId = mediaId;
+	}
+
+	public String getThumbMediaId() {
+		return thumbMediaId;
+	}
+
+	public void setThumbMediaId(String thumbMediaId) {
+		this.thumbMediaId = thumbMediaId;
+	}
+
+	public Integer getNewsIndex() {
+		return newsIndex;
+	}
+
+	public void setNewsIndex(Integer newsIndex) {
+		this.newsIndex = newsIndex;
+	}
+
+	public Integer getOpencomment() {
+		return opencomment;
+	}
+
+	public void setOpencomment(Integer opencomment) {
+		this.opencomment = opencomment;
+	}
+
+	public Integer getFanscancomment() {
+		return fanscancomment;
+	}
+
+	public void setFanscancomment(Integer fanscancomment) {
+		this.fanscancomment = fanscancomment;
+	}
+
+	public String getStart() {
+		return start;
+	}
+
+	public void setStart(String start) {
+		this.start = start;
+	}
+
+	public String getEnd() {
+		return end;
+	}
+
+	public void setEnd(String end) {
+		this.end = end;
+	}
+
+	public List<MsgArticle> getArticles() {
+		return articles;
+	}
+
+	public void setArticles(List<MsgArticle> articles) {
+		this.articles = articles;
+	}
 }

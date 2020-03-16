@@ -49,4 +49,68 @@ public class MsgBase extends Page implements Serializable {
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm", timezone = "GMT+8")
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm",iso= DateTimeFormat.ISO.DATE_TIME)
 	private Date createTime;//创建时间
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getMsgtype() {
+		return msgtype;
+	}
+
+	public void setMsgtype(String msgtype) {
+		this.msgtype = msgtype;
+	}
+
+	public String getInputcode() {
+		return inputcode;
+	}
+
+	public void setInputcode(String inputcode) {
+		this.inputcode = inputcode;
+	}
+
+	public String getRule() {
+		return rule;
+	}
+
+	public void setRule(String rule) {
+		this.rule = rule;
+	}
+
+	public Integer getEnable() {
+		return enable;
+	}
+
+	public void setEnable(Integer enable) {
+		this.enable = enable;
+	}
+
+	public Integer getReadcount() {
+		return readcount;
+	}
+
+	public void setReadcount(Integer readcount) {
+		this.readcount = readcount;
+	}
+
+	public Integer getFavourcount() {
+		return favourcount;
+	}
+
+	public void setFavourcount(Integer favourcount) {
+		this.favourcount = favourcount;
+	}
+
+	public Date getCreateTime() {
+		return createTime;
+	}
+
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
 }

@@ -45,4 +45,108 @@ public class MsgArticle  extends Page implements Serializable {
 	private String mediaId;
 	private Integer newsIndex;
 	private Integer newsId;
+
+	public Integer getArId() {
+		return arId;
+	}
+
+	public void setArId(Integer arId) {
+		this.arId = arId;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public String getDigest() {
+		return digest;
+	}
+
+	public void setDigest(String digest) {
+		this.digest = digest;
+	}
+
+	public Integer getShowCoverPic() {
+		return showCoverPic;
+	}
+
+	public void setShowCoverPic(Integer showCoverPic) {
+		this.showCoverPic = showCoverPic;
+	}
+
+	public String getPicUrl() {
+		return picUrl;
+	}
+
+	public void setPicUrl(String picUrl) {
+		this.picUrl = picUrl;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getThumbMediaId() {
+		return thumbMediaId;
+	}
+
+	public void setThumbMediaId(String thumbMediaId) {
+		this.thumbMediaId = thumbMediaId;
+	}
+
+	public String getContentSourceUrl() {
+		return contentSourceUrl;
+	}
+
+	public void setContentSourceUrl(String contentSourceUrl) {
+		this.contentSourceUrl = contentSourceUrl;
+	}
+
+	public String getMediaId() {
+		return mediaId;
+	}
+
+	public void setMediaId(String mediaId) {
+		this.mediaId = mediaId;
+	}
+
+	public Integer getNewsIndex() {
+		return newsIndex;
+	}
+
+	public void setNewsIndex(Integer newsIndex) {
+		this.newsIndex = newsIndex;
+	}
+
+	public Integer getNewsId() {
+		return newsId;
+	}
+
+	public void setNewsId(Integer newsId) {
+		this.newsId = newsId;
+	}
 }

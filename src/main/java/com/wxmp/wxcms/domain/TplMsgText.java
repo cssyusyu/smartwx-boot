@@ -33,4 +33,44 @@ public class TplMsgText extends MsgBase {
 	private Long baseId;//消息主表id
 	private String tplId;//消息主表id
 	private String wxTpl;//微信模板
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Long getBaseId() {
+		return baseId;
+	}
+
+	public void setBaseId(Long baseId) {
+		this.baseId = baseId;
+	}
+
+	public String getTplId() {
+		return tplId;
+	}
+
+	public void setTplId(String tplId) {
+		this.tplId = tplId;
+	}
+
+	public String getWxTpl() {
+		return wxTpl;
+	}
+
+	public void setWxTpl(String wxTpl) {
+		this.wxTpl = wxTpl;
+	}
 }

@@ -35,4 +35,28 @@ public class SysConfig implements Serializable {
     private String jvalue;
 
     private String description;
+
+    public String getJkey() {
+        return jkey;
+    }
+
+    public void setJkey(String jkey) {
+        this.jkey = jkey;
+    }
+
+    public String getJvalue() {
+        return jvalue;
+    }
+
+    public void setJvalue(String jvalue) {
+        this.jvalue = jvalue;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

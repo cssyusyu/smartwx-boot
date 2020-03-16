@@ -32,4 +32,27 @@ public class MsgText extends MsgBase {
 	private String content;//消息内容
 	private Long baseId;//消息主表id
 
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Long getBaseId() {
+		return baseId;
+	}
+
+	public void setBaseId(Long baseId) {
+		this.baseId = baseId;
+	}
 }
